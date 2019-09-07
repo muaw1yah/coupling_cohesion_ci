@@ -1,5 +1,7 @@
-public class Dog {
+public class Dog implements Animal{
+
+	@Override
 	public void eat () {
-		System.out.println("Dog eating.....");
+		System.out.println("Dog eating.......");
 	}
 }

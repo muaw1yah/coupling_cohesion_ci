@@ -1,5 +1,7 @@
-public class Cat {
+public class Cat implements Animal{
+
+	@Override
 	public void eat () {
-		System.out.println("Cat eating......");
+		System.out.println("Cat eating........");
 	}
 }

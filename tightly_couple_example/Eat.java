@@ -1,8 +1,8 @@
 public class Eat {
-	Animal animal1 = new Dog();
-	Animal animal2 = new Cat();
+	Dog dog = new Dog();
+	Cat cat = new Cat();
 	public void eatBreakfast() {
-		animal1.eat();
-		animal2.eat();
+		dog.eat();
+		cat.eat();
 	}
 }
